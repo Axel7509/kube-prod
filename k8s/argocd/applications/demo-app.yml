@@ -9,8 +9,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/bakavets/k8s-lessons.git
-    targetRevision: master
+    repoURL: https://github.com/Axel7509/kube-prod.git
+    targetRevision: main
     path: lesson-30/charts/demo
 
     helm:

@@ -1,0 +1,11 @@
+container:
+  image: nginx:1.21.3
+
+replicaCount: 1
+
+ingressDNS: localhost
+
+minReplicas: 1
+maxReplicas: 5
+
+namespace: vote
